@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    background-image: #fff;
+}
+ 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#contacts {
+    /*border: 1px solid green; */
+    font-size: 2em;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+
+    overflow: hidden;
+}
+
+#contacts ul {
+    font-size: 2em;
+    margin-bottom: -9.25em;
+
+    transition: 1s;
+    
+}
+
+#contacts:target ul {
+    margin-bottom: 0em;
+}
+
+#contacts ul a {
+    display: block;
+    padding: 1em;
+    background-color: cornflowerblue;
+    margin-bottom: 0.25em;
+    border-radius: 1.5em;
+
+}
+
+#contacts ul li:last-child a {
+    margin-bottom: 0;
+}
